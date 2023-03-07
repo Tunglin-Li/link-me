@@ -1,0 +1,12 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.block-editor-url-input__button {
+	align-self: center;
+
+	> .block-editor-url-input__button-modal {
+		position: absolute !important;
+	}
+}

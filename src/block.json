@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wpaa/link-me",
+	"version": "0.1.0",
+	"title": "Link Me!",
+	"category": "design",
+
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"url": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+			"attribute": "href"
+		},
+		"targetLink": {
+			"type": "string",
+			"default": ""
+		},
+		"opensInNewTab": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"textdomain": "link-me",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

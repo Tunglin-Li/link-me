@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Link Me! 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/link-me\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-02-17T09:10:32+00:00\n"
+"PO-Revision-Date: 2023-02-17 17:12+0800\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Domain: link-me\n"
+
+#. Author of the plugin
+msgid "平凡以上"
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block title"
+msgid "Link Me!"
+msgstr "連結區塊"
+
+#: build/block.json
+#: src/block.json
+msgctxt "block description"
+msgid "Add a tag to Cover and Group Block to make it linkable."
+msgstr "測試"
